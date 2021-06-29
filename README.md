@@ -29,6 +29,7 @@
 - JSON 데이터 형테로 요청하면 FACE_DETECTION 응답에는 인식된 모든 얼굴의 경계 상자, 얼굴에서 인식된 특징(눈, 코, 입 등), 얼굴과 이미지 속성(기쁨, 슬픔, 분노, 놀람 등)의 신뢰도 평점이 포함
 - 특정인의 얼굴인식은 지원하지 않음
 - 가격
+
 ![K-004](https://user-images.githubusercontent.com/54658745/123743757-a8be7b00-d8e8-11eb-9361-6d47c1cac351.png)
 
 
@@ -40,7 +41,8 @@
 - 캐글을 통해 Face Emotion dataset를 활용하여 Pytorch를 활용해 모델 학습
 - 'Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise' 의 7가지 감정인식 가능
 - 모델 학습결과 정확도 54%로 다소 낮은 문제 => 해결 필요
-- 학습 loss and accuracy
+- 학습 결과
+
 ![K-005](https://user-images.githubusercontent.com/54658745/123744192-5e89c980-d8e9-11eb-8d53-7680d02cd352.png)
 
 
