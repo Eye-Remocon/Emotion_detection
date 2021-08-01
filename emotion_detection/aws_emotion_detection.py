@@ -14,5 +14,3 @@ def aws_main(face_image):
     face_emotion = detect_faces(photo)
     return str(face_emotion['Type'])
 
-if __name__ == "__main__":
-    aws_main()
