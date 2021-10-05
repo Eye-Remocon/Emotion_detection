@@ -57,7 +57,7 @@ class ResNet(nn.Module):
 def detection(face_picture):
     face_classifier = cv2.CascadeClassifier('./models/haarcascade_frontalface_default.xml')
     model_state = torch.load('./models/emotion_detection_model_state.pth')
-    class_labels = ['ANGRY', 'DISGUS', 'FEAR', 'HAPPY', 'NEUTRAL', 'SAD', 'SURPRISE']
+    class_labels = ['ANGRY', 'DISGUST', 'FEAR', 'HAPPY', 'NEUTRAL', 'SAD', 'SURPRISE']
     model = ResNet(1, len(class_labels))
     model.load_state_dict(model_state)
 
